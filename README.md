@@ -30,6 +30,8 @@ The Chicago and New York City files also have the following two columns:
 * Gender
 * Birth Year
 
+![nyc-data](/img/nyc-data.png)
+
 #### Statistics computed
 
 1. **Popular times of travel**
