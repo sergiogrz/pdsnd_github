@@ -10,9 +10,25 @@ The project consists in creating a tool by using **Python** to explore data rela
 * New York City
 * Washington
 
+The datasets used in the project have been provided by [*Motivate*](https://www.motivateco.com/), a bike share system provider for many major cities in the United States, to uncover bike share usage patterns.
+
 The purpose of this project has been to learn how to code in **Python**, as well as to use some essential libraries for Data Science, such as **NumPy** and **Pandas**.
 
 Essentially, I have created a program to import the data and answer interesting questions about it by computing descriptive statistics. It also includes a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
+
+#### The datasets
+
+Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six columns:
+* Start Time (e.g., 2017-01-01 00:07:57)
+* End Time (e.g., 2017-01-01 00:20:53)
+* Trip Duration (in seconds - e.g., 776)
+* Start Station (e.g., Broadway & Barry Ave)
+* End Station (e.g., Sedgwick St & North Ave)
+* User Type (Subscriber or Customer)
+
+The Chicago and New York City files also have the following two columns:
+* Gender
+* Birth Year
 
 #### Statistics computed
 
