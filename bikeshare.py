@@ -35,19 +35,19 @@ def get_filters():
 
     # get user input for month (all, january, february, ... , june)
     months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
-    months_numbers = ['1', '2', '3', '4', '5', '6']
+    month_numbers = ['1', '2', '3', '4', '5', '6']
     month = input('\nWhich month (from January [1] to June [6]) would you like to see the data for?\n'
     'Please type \'all\' if you don\'t want to filter by month.\n').lower()
 
     # while loop to handle invalid inputs for the month
-    while month not in months and month not in months_numbers:
+    while month not in months and month not in month_numbers:
         print('\nYou have typed an invalid name. Please enter a month name, a month number, or \'all\'.')
         month = input('Which month (from January [1] to June [6]) would you like to see the data for?\n'
         'Please type \'all\' if you don\'t want to filter by month.\n').lower()
 
     # if the user types a number, convert it to its corresponding month
-    if month in months_numbers:
-        month = months[months_numbers.index(month)]
+    if month in month_numbers:
+        month = months[month_numbers.index(month)]
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     dow = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
