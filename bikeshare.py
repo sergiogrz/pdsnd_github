@@ -240,8 +240,7 @@ def get_table(city, month, day):
             break
 
         # ask the user if he wants to see other 5 rows of data
-        answer = input('\nWould you like to see some more individual trip data? Please type yes (y) or no (n).\n')
-        answer = answer.lower()
+        answer = input('\nWould you like to see some more individual trip data? Please type yes (y) or no (n).\n').lower()
 
 def main():
     while True:
