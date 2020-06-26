@@ -40,7 +40,19 @@ Essentially, I have created a program to import the data and answer interesting 
 
 
 ### Files used
-Include the files used
+The project has been developed in the file **bikeshare.py**.
+
+This file makes use of the following three city dataset files:
+* __chicago.csv__
+* __new_york_city.csv__
+* __washington.csv__
+
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+In order to complete the project, I have made use of the resources listed below:
+
+* [The Python Standard Library](https://docs.python.org/3/library/index.html)
+* [pandas documentation](https://pandas.pydata.org/docs/#)
+* [GeeksforGeeks](https://www.geeksforgeeks.org/)
+* [Stack Overflow](https://stackoverflow.com/)
+* [Programiz](https://www.programiz.com/python-programming)
